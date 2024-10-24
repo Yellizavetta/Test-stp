@@ -39,7 +39,7 @@ class Invoice
 
   def display
     @items.each { |item| puts "#{item.name}: $#{'%.2f' % item.price}" }
-    puts "Pагальна вартість: $#{'%.2f' % total_cost}"
+    puts "Загальна вартість: $#{'%.2f' % total_cost}"
   end
 end
 
